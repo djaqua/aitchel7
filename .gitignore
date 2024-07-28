@@ -1,3 +1,5 @@
+*.template
+
 # Logs
 logs
 *.log
