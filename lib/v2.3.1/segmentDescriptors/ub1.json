@@ -1,0 +1,94 @@
+[
+  {
+    "id": "UB1.1",
+    "type": "SI"
+  },
+  {
+    "id": "UB1.2",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.3",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.4",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.5",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.6",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.7",
+    "type": "IS"
+  },
+  {
+    "id": "UB1.8",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.9",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.10",
+    "type": "CM_UVC"
+  },
+  {
+    "id": "UB1.11",
+    "type": "NM"
+  },
+  {
+    "id": "UB1.12",
+    "type": "CE"
+  },
+  {
+    "id": "UB1.13",
+    "type": "CE"
+  },
+  {
+    "id": "UB1.14",
+    "type": "DT"
+  },
+  {
+    "id": "UB1.15",
+    "type": "DT"
+  },
+  {
+    "id": "UB1.16",
+    "type": "CM_OCD"
+  },
+  {
+    "id": "UB1.17",
+    "type": "CE"
+  },
+  {
+    "id": "UB1.18",
+    "type": "DT"
+  },
+  {
+    "id": "UB1.19",
+    "type": "DT"
+  },
+  {
+    "id": "UB1.20",
+    "type": "ST"
+  },
+  {
+    "id": "UB1.21",
+    "type": "ST"
+  },
+  {
+    "id": "UB1.22",
+    "type": "ST"
+  },
+  {
+    "id": "UB1.23",
+    "type": "ST"
+  }
+]

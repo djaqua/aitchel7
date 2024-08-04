@@ -1,0 +1,70 @@
+[
+  {
+    "id": "UB2.1",
+    "type": "SI"
+  },
+  {
+    "id": "UB2.2",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.3",
+    "type": "IS"
+  },
+  {
+    "id": "UB2.4",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.5",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.6",
+    "type": "CM_UVC"
+  },
+  {
+    "id": "UB2.7",
+    "type": "CM_OCD"
+  },
+  {
+    "id": "UB2.8",
+    "type": "CM_OSP"
+  },
+  {
+    "id": "UB2.9",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.10",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.11",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.12",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.13",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.14",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.15",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.16",
+    "type": "ST"
+  },
+  {
+    "id": "UB2.17",
+    "type": "NM"
+  }
+]

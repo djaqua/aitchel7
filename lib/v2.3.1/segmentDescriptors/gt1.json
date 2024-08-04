@@ -1,0 +1,222 @@
+[
+  {
+    "id": "GT1.1",
+    "type": "SI"
+  },
+  {
+    "id": "GT1.2",
+    "type": "CX"
+  },
+  {
+    "id": "GT1.3",
+    "type": "XPN"
+  },
+  {
+    "id": "GT1.4",
+    "type": "XPN"
+  },
+  {
+    "id": "GT1.5",
+    "type": "XAD"
+  },
+  {
+    "id": "GT1.6",
+    "type": "XTN"
+  },
+  {
+    "id": "GT1.7",
+    "type": "XTN"
+  },
+  {
+    "id": "GT1.8",
+    "type": "TS"
+  },
+  {
+    "id": "GT1.9",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.10",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.11",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.12",
+    "type": "ST"
+  },
+  {
+    "id": "GT1.13",
+    "type": "DT"
+  },
+  {
+    "id": "GT1.14",
+    "type": "DT"
+  },
+  {
+    "id": "GT1.15",
+    "type": "NM"
+  },
+  {
+    "id": "GT1.16",
+    "type": "XPN"
+  },
+  {
+    "id": "GT1.17",
+    "type": "XAD"
+  },
+  {
+    "id": "GT1.18",
+    "type": "XTN"
+  },
+  {
+    "id": "GT1.19",
+    "type": "CX"
+  },
+  {
+    "id": "GT1.20",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.21",
+    "type": "XON"
+  },
+  {
+    "id": "GT1.22",
+    "type": "ID"
+  },
+  {
+    "id": "GT1.23",
+    "type": "CE"
+  },
+  {
+    "id": "GT1.24",
+    "type": "TS"
+  },
+  {
+    "id": "GT1.25",
+    "type": "ID"
+  },
+  {
+    "id": "GT1.26",
+    "type": "CE"
+  },
+  {
+    "id": "GT1.27",
+    "type": "CP"
+  },
+  {
+    "id": "GT1.28",
+    "type": "NM"
+  },
+  {
+    "id": "GT1.29",
+    "type": "CX"
+  },
+  {
+    "id": "GT1.30",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.31",
+    "type": "DT"
+  },
+  {
+    "id": "GT1.32",
+    "type": "DT"
+  },
+  {
+    "id": "GT1.33",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.34",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.35",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.36",
+    "type": "CE"
+  },
+  {
+    "id": "GT1.37",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.38",
+    "type": "CE"
+  },
+  {
+    "id": "GT1.39",
+    "type": "ID"
+  },
+  {
+    "id": "GT1.40",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.41",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.42",
+    "type": "XPN"
+  },
+  {
+    "id": "GT1.43",
+    "type": "CE"
+  },
+  {
+    "id": "GT1.44",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.45",
+    "type": "XPN"
+  },
+  {
+    "id": "GT1.46",
+    "type": "XTN"
+  },
+  {
+    "id": "GT1.47",
+    "type": "CE"
+  },
+  {
+    "id": "GT1.48",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.49",
+    "type": "ST"
+  },
+  {
+    "id": "GT1.50",
+    "type": "JCC"
+  },
+  {
+    "id": "GT1.51",
+    "type": "XON"
+  },
+  {
+    "id": "GT1.52",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.53",
+    "type": "IS"
+  },
+  {
+    "id": "GT1.54",
+    "type": "FC"
+  },
+  {
+    "id": "GT1.55",
+    "type": "IS"
+  }
+]

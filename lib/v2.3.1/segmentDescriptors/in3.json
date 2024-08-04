@@ -1,0 +1,102 @@
+[
+  {
+    "id": "IN3.1",
+    "type": "SI"
+  },
+  {
+    "id": "IN3.2",
+    "type": "CX"
+  },
+  {
+    "id": "IN3.3",
+    "type": "XCN"
+  },
+  {
+    "id": "IN3.4",
+    "type": "ID"
+  },
+  {
+    "id": "IN3.5",
+    "type": "CM_PEN"
+  },
+  {
+    "id": "IN3.6",
+    "type": "TS"
+  },
+  {
+    "id": "IN3.7",
+    "type": "TS"
+  },
+  {
+    "id": "IN3.8",
+    "type": "XCN"
+  },
+  {
+    "id": "IN3.9",
+    "type": "DT"
+  },
+  {
+    "id": "IN3.10",
+    "type": "DT"
+  },
+  {
+    "id": "IN3.11",
+    "type": "CM_DTN"
+  },
+  {
+    "id": "IN3.12",
+    "type": "CE"
+  },
+  {
+    "id": "IN3.13",
+    "type": "TS"
+  },
+  {
+    "id": "IN3.14",
+    "type": "XCN"
+  },
+  {
+    "id": "IN3.15",
+    "type": "ST"
+  },
+  {
+    "id": "IN3.16",
+    "type": "XTN"
+  },
+  {
+    "id": "IN3.17",
+    "type": "CE"
+  },
+  {
+    "id": "IN3.18",
+    "type": "CE"
+  },
+  {
+    "id": "IN3.19",
+    "type": "XTN"
+  },
+  {
+    "id": "IN3.20",
+    "type": "CM_PCF"
+  },
+  {
+    "id": "IN3.21",
+    "type": "ST"
+  },
+  {
+    "id": "IN3.22",
+    "type": "DT"
+  },
+  {
+    "id": "IN3.23",
+    "type": "IS"
+  },
+  {
+    "id": "IN3.24",
+    "type": "IS"
+  },
+  {
+    "id": "IN3.25",
+    "type": "XCN"
+  }
+]

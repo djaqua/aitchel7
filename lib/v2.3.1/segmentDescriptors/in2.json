@@ -1,0 +1,288 @@
+[
+  {
+    "id": "IN2.1",
+    "type": "CX"
+  },
+  {
+    "id": "IN2.2",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.3",
+    "type": "XCN"
+  },
+  {
+    "id": "IN2.4",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.5",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.6",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.7",
+    "type": "XPN"
+  },
+  {
+    "id": "IN2.8",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.9",
+    "type": "XPN"
+  },
+  {
+    "id": "IN2.10",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.11",
+    "type": "CE"
+  },
+  {
+    "id": "IN2.12",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.13",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.14",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.15",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.16",
+    "type": "DT"
+  },
+  {
+    "id": "IN2.17",
+    "type": "ID"
+  },
+  {
+    "id": "IN2.18",
+    "type": "ID"
+  },
+  {
+    "id": "IN2.19",
+    "type": "ID"
+  },
+  {
+    "id": "IN2.20",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.21",
+    "type": "XPN"
+  },
+  {
+    "id": "IN2.22",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.23",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.24",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.25",
+    "type": "CX"
+  },
+  {
+    "id": "IN2.26",
+    "type": "CX"
+  },
+  {
+    "id": "IN2.27",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.28",
+    "type": "CM_RMC"
+  },
+  {
+    "id": "IN2.29",
+    "type": "CM_PTA"
+  },
+  {
+    "id": "IN2.30",
+    "type": "CM_DDI"
+  },
+  {
+    "id": "IN2.31",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.32",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.33",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.34",
+    "type": "CE"
+  },
+  {
+    "id": "IN2.35",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.36",
+    "type": "CE"
+  },
+  {
+    "id": "IN2.37",
+    "type": "ID"
+  },
+  {
+    "id": "IN2.38",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.39",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.40",
+    "type": "XPN"
+  },
+  {
+    "id": "IN2.41",
+    "type": "CE"
+  },
+  {
+    "id": "IN2.42",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.43",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.44",
+    "type": "DT"
+  },
+  {
+    "id": "IN2.45",
+    "type": "DT"
+  },
+  {
+    "id": "IN2.46",
+    "type": "ST"
+  },
+  {
+    "id": "IN2.47",
+    "type": "JCC"
+  },
+  {
+    "id": "IN2.48",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.49",
+    "type": "XPN"
+  },
+  {
+    "id": "IN2.50",
+    "type": "XTN"
+  },
+  {
+    "id": "IN2.51",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.52",
+    "type": "XPN"
+  },
+  {
+    "id": "IN2.53",
+    "type": "XTN"
+  },
+  {
+    "id": "IN2.54",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.55",
+    "type": "DT"
+  },
+  {
+    "id": "IN2.56",
+    "type": "DT"
+  },
+  {
+    "id": "IN2.57",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.58",
+    "type": "XTN"
+  },
+  {
+    "id": "IN2.59",
+    "type": "IS"
+  },{
+    "id": "IN2.60",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.61",
+    "type": "CX"
+  },
+  {
+    "id": "IN2.62",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.63",
+    "type": "XTN"
+  },
+  {
+    "id": "IN2.64",
+    "type": "XTN"
+  },
+  {
+    "id": "IN2.65",
+    "type": "CE"
+  },
+  {
+    "id": "IN2.66",
+    "type": "ID"
+  },
+  {
+    "id": "IN2.67",
+    "type": "ID"
+  },
+  {
+    "id": "IN2.68",
+    "type": "ID"
+  },
+  {
+    "id": "IN2.69",
+    "type": "XON"
+  },{
+    "id": "IN2.70",
+    "type": "XON"
+  },
+  {
+    "id": "IN2.71",
+    "type": "IS"
+  },
+  {
+    "id": "IN2.72",
+    "type": "CE"
+  }
+]

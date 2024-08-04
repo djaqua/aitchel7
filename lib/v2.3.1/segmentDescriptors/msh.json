@@ -1,0 +1,80 @@
+[
+  {
+    "id": "MSH.2",
+    "type": "ST",
+    "isRequired": true
+  },
+  {
+    "id": "MSH.3",
+    "type": "HD"
+  },
+  {
+    "id": "MSH.4",
+    "type": "HD"
+  },
+  {
+    "id": "MSH.5",
+    "type": "HD"
+  },
+  {
+    "id": "MSH.6",
+    "type": "HD"
+  },
+  {
+    "id": "MSH.7",
+    "type": "TS"
+  },
+  {
+    "id": "MSH.8",
+    "type": "ST"
+  },
+
+  {
+    "id": "MSH.9",
+    "type": "CM_MSG",
+    "isRequired": true
+  },
+  {
+    "id": "MSH.10",
+    "type": "ST",
+    "isRequired": true
+  },
+  {
+    "id": "MSH.11",
+    "type": "PT",
+    "isRequired": true
+  },
+  {
+    "id": "MSH.12",
+    "type": "ID",
+    "isRequired": true
+  },
+  {
+    "id": "MSH.13",
+    "type": "NM"
+  },
+  {
+    "id": "MSH.14",
+    "type": "ST"
+  },
+  {
+    "id": "MSH.15",
+    "type": "ST"
+  },
+  {
+    "id": "MSH.16",
+    "type": "ID"
+  },
+  {
+    "id": "MSH.17",
+    "type": "ID"
+  },
+  {
+    "id": "MSH.18",
+    "type": "ID"
+  },
+  {
+    "id": "MSH.19",
+    "type": "CE"
+  }
+]

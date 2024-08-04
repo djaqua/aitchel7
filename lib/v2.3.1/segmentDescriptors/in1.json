@@ -1,0 +1,198 @@
+[
+  {
+    "id": "IN1.1",
+    "type": "SI"
+  },
+  {
+    "id": "IN1.2",
+    "type": "CE"
+  },
+  {
+    "id": "IN1.3",
+    "type": "CX"
+  },
+  {
+    "id": "IN1.4",
+    "type": "XON"
+  },
+  {
+    "id": "IN1.5",
+    "type": "XAD"
+  },
+  {
+    "id": "IN1.6",
+    "type": "XPN"
+  },
+  {
+    "id": "IN1.7",
+    "type": "XTN"
+  },
+  {
+    "id": "IN1.8",
+    "type": "ST"
+  },
+  {
+    "id": "IN1.9",
+    "type": "XON"
+  },
+  {
+    "id": "IN1.10",
+    "type": "CX"
+  },
+  {
+    "id": "IN1.11",
+    "type": "XON"
+  },
+  {
+    "id": "IN1.12",
+    "type": "DT"
+  },
+  {
+    "id": "IN1.13",
+    "type": "DT"
+  },
+  {
+    "id": "IN1.14",
+    "type": "CM_AUI"
+  },
+  {
+    "id": "IN1.15",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.16",
+    "type": "XPN"
+  },
+  {
+    "id": "IN1.17",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.18",
+    "type": "TS"
+  },
+  {
+    "id": "IN1.19",
+    "type": "XAD"
+  },
+  {
+    "id": "IN1.20",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.21",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.22",
+    "type": "ST"
+  },
+  {
+    "id": "IN1.23",
+    "type": "ID"
+  },
+  {
+    "id": "IN1.24",
+    "type": "DT"
+  },
+  {
+    "id": "IN1.25",
+    "type": "ID"
+  },
+  {
+    "id": "IN1.26",
+    "type": "DT"
+  },
+  {
+    "id": "IN1.27",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.28",
+    "type": "ST"
+  },
+  {
+    "id": "IN1.29",
+    "type": "TS"
+  },
+  {
+    "id": "IN1.30",
+    "type": "XCN"
+  },
+  {
+    "id": "IN1.31",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.32",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.33",
+    "type": "NM"
+  },
+  {
+    "id": "IN1.34",
+    "type": "NM"
+  },
+  {
+    "id": "IN1.35",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.36",
+    "type": "ST"
+  },
+  {
+    "id": "IN1.37",
+    "type": "CP"
+  },
+  {
+    "id": "IN1.38",
+    "type": "CP"
+  },
+  {
+    "id": "IN1.39",
+    "type": "NM"
+  },
+  {
+    "id": "IN1.40",
+    "type": "CP"
+  },
+  {
+    "id": "IN1.41",
+    "type": "CP"
+  },
+  {
+    "id": "IN1.42",
+    "type": "CE"
+  },
+  {
+    "id": "IN1.43",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.44",
+    "type": "XAD"
+  },
+  {
+    "id": "IN1.45",
+    "type": "ST"
+  },
+  {
+    "id": "IN1.46",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.47",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.48",
+    "type": "IS"
+  },
+  {
+    "id": "IN1.49",
+    "type": "CX"
+  }
+]

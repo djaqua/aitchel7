@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PR1.1",
+    "type": "SI"
+  },
+  {
+    "id": "PR1.2",
+    "type": "IS"
+  },
+  {
+    "id": "PR1.3",
+    "type": "CE"
+  },
+  {
+    "id": "PR1.4",
+    "type": "ST"
+  },
+  {
+    "id": "PR1.5",
+    "type": "TS"
+  },
+  {
+    "id": "PR1.6",
+    "type": "IS"
+  },
+  {
+    "id": "PR1.7",
+    "type": "NM"
+  },
+  {
+    "id": "PR1.8",
+    "type": "XCN"
+  },
+  {
+    "id": "PR1.9",
+    "type": "IS"
+  },
+  {
+    "id": "PR1.10",
+    "type": "NM"
+  },
+  {
+    "id": "PR1.11",
+    "type": "XCN"
+  },
+  {
+    "id": "PR1.12",
+    "type": "XCN"
+  },
+  {
+    "id": "PR1.13",
+    "type": "CE"
+  },
+  {
+    "id": "PR1.14",
+    "type": "NM"
+  },
+  {
+    "id": "PR1.15",
+    "type": "CE"
+  }
+]

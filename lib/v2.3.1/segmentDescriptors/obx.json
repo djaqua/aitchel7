@@ -1,0 +1,70 @@
+[
+  {
+    "id": "OBX.1",
+    "type": "SI"
+  },
+  {
+    "id": "OBX.2",
+    "type": "ID"
+  },
+  {
+    "id": "OBX.3",
+    "type": "CE"
+  },
+  {
+    "id": "OBX.4",
+    "type": "ST"
+  },
+  {
+    "id": "OBX.5",
+    "type": "ST"
+  },
+  {
+    "id": "OBX.6",
+    "type": "CE"
+  },
+  {
+    "id": "OBX.7",
+    "type": "ST"
+  },
+  {
+    "id": "OBX.8",
+    "type": "ID"
+  },
+  {
+    "id": "OBX.9",
+    "type": "NM"
+  },
+  {
+    "id": "OBX.10",
+    "type": "ID"
+  },
+  {
+    "id": "OBX.11",
+    "type": "ID"
+  },
+  {
+    "id": "OBX.12",
+    "type": "TS"
+  },
+  {
+    "id": "OBX.13",
+    "type": "ST"
+  },
+  {
+    "id": "OBX.14",
+    "type": "TS"
+  },
+  {
+    "id": "OBX.15",
+    "type": "CE"
+  },
+  {
+    "id": "OBX.16",
+    "type": "XCN"
+  },
+  {
+    "id": "OBX.17",
+    "type": "CE"
+  }
+]

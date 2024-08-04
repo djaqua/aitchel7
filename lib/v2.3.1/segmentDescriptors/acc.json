@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ACC.1",
+    "type": "TS"
+  },
+  {
+    "id": "ACC.2",
+    "type": "CE"
+  },
+  {
+    "id": "ACC.3",
+    "type": "ST"
+  },
+  {
+    "id": "ACC.4",
+    "type": "CE"
+  },
+  {
+    "id": "ACC.5",
+    "type": "ID"
+  },
+  {
+    "id": "ACC.6",
+    "type": "ID"
+  }
+]

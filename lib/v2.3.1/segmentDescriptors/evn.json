@@ -1,0 +1,27 @@
+[
+  {
+    "id": "EVN.1",
+    "type": "ID"
+  },
+  {
+    "id": "EVN.2",
+    "type": "TS",
+    "isRequired": true
+  },
+  {
+    "id": "EVN.3",
+    "type": "TS"
+  },
+  {
+    "id": "EVN.4",
+    "type": "IS"
+  },
+  {
+    "id": "EVN.5",
+    "type": "XCN"
+  },
+  {
+    "id": "EVN.6",
+    "type": "TS"
+  }
+]

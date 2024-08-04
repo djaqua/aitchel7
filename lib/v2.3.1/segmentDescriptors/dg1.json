@@ -1,0 +1,78 @@
+[
+  {
+    "id": "DG1.1",
+    "type": "SI"
+  },
+  {
+    "id": "DG1.2",
+    "type": "ID"
+  },
+  {
+    "id": "DG1.3",
+    "type": "CE"
+  },
+  {
+    "id": "DG1.4",
+    "type": "ST"
+  },
+  {
+    "id": "DG1.5",
+    "type": "TS"
+  },
+  {
+    "id": "DG1.6",
+    "type": "IS"
+  },
+  {
+    "id": "DG1.7",
+    "type": "CE"
+  },
+  {
+    "id": "DG1.8",
+    "type": "CE"
+  },
+  {
+    "id": "DG1.9",
+    "type": "ID"
+  },
+  {
+    "id": "DG1.10",
+    "type": "IS"
+  },
+  {
+    "id": "DG1.11",
+    "type": "CE"
+  },
+  {
+    "id": "DG1.12",
+    "type": "NM"
+  },
+  {
+    "id": "DG1.13",
+    "type": "CP"
+  },
+  {
+    "id": "DG1.14",
+    "type": "ST"
+  },
+  {
+    "id": "DG1.15",
+    "type": "NM"
+  },
+  {
+    "id": "DG1.16",
+    "type": "XCN"
+  },
+  {
+    "id": "DG1.17",
+    "type": "IS"
+  },
+  {
+    "id": "DG1.18",
+    "type": "ID"
+  },
+  {
+    "id": "DG1.19",
+    "type": "TS"
+  }
+]

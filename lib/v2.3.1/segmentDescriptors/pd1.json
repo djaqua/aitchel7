@@ -1,0 +1,54 @@
+[
+  {
+    "id": "PD1.1",
+    "type": "IS",
+    "isRepeatable": true
+  },
+  {
+    "id": "PD1.2",
+    "type": "IS"
+  },
+  {
+    "id": "PD1.3",
+    "type": "XON",
+    "isRepeatable": true
+  },
+  {
+    "id": "PD1.4",
+    "type": "XCN",
+    "isRepeatable": true
+  },
+  {
+    "id": "PD1.5",
+    "type": "IS"
+  },
+  {
+    "id": "PD1.6",
+    "type": "IS"
+  },
+  {
+    "id": "PD1.7",
+    "type": "IS"
+  },
+  {
+    "id": "PD1.8",
+    "type": "IS"
+  },
+  {
+    "id": "PD1.9",
+    "type": "ID"
+  },
+  {
+    "id": "PD1.10",
+    "type": "CX",
+    "isRepeatable": true
+  },
+  {
+    "id": "PD1.11",
+    "type": "CE"
+  },
+  {
+    "id": "PD1.12",
+    "type": "ID"
+  }
+]

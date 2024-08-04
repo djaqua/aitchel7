@@ -1,0 +1,42 @@
+[
+  {
+    "id": "DRG.1",
+    "type": "CE"
+  },
+  {
+    "id": "DRG.2",
+    "type": "TS"
+  },
+  {
+    "id": "DRG.3",
+    "type": "ID"
+  },
+  {
+    "id": "DRG.4",
+    "type": "IS"
+  },
+  {
+    "id": "DRG.5",
+    "type": "CE"
+  },
+  {
+    "id": "DRG.6",
+    "type": "NM"
+  },
+  {
+    "id": "DRG.7",
+    "type": "CP"
+  },
+  {
+    "id": "DRG.8",
+    "type": "IS"
+  },
+  {
+    "id": "DRG.9",
+    "type": "CP"
+  },
+  {
+    "id": "DRG.10",
+    "type": "ID"
+  }
+]

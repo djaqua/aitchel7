@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ROL.1",
+    "type": "EI"
+  },
+  {
+    "id": "ROL.2",
+    "type": "ID"
+  },
+  {
+    "id": "ROL.3",
+    "type": "CE"
+  },
+  {
+    "id": "ROL.4",
+    "type": "XCN"
+  },
+  {
+    "id": "ROL.5",
+    "type": "TS"
+  },
+  {
+    "id": "ROL.6",
+    "type": "TS"
+  },
+  {
+    "id": "ROL.7",
+    "type": "CE"
+  },
+  {
+    "id": "ROL.8",
+    "type": "CE"
+  }
+]

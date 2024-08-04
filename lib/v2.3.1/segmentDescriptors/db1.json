@@ -1,0 +1,34 @@
+[
+  {
+    "id": "DB1.1",
+    "type": "SI"
+  },
+  {
+    "id": "DB1.2",
+    "type": "IS"
+  },
+  {
+    "id": "DB1.3",
+    "type": "CX"
+  },
+  {
+    "id": "DB1.4",
+    "type": "ID"
+  },
+  {
+    "id": "DB1.5",
+    "type": "DT"
+  },
+  {
+    "id": "DB1.6",
+    "type": "DT"
+  },
+  {
+    "id": "DB1.7",
+    "type": "DT"
+  },
+  {
+    "id": "DB1.8",
+    "type": "DT"
+  }
+]
