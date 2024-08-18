@@ -19,7 +19,7 @@ const FOO_ALT = `FOO|A NIMBLE FOO SEGMENT\n`;
 const BAR = `BAR|A HUMBLE BAR SEGMENT\n`;
 const BAZ = `BAZ|A HUMBLE BAR SEGMENT\n`;
 
-describe("SegmentIterator", () => {
+describe("lib/SegmentIterator", () => {
   describe("constructor(message, segmentParser)", () => {
     it("should throw an error when message is undefined", () => {
       expect(() => {
@@ -38,7 +38,7 @@ describe("SegmentIterator", () => {
     });
   });
 
-  describe("loop(segmentId, resultHandler)", () => {
+  describe("optionalLoop(segmentId, resultHandler)", () => {
     describe("empty messages", () => {
       let iter;
       beforeEach(() => {
@@ -48,20 +48,20 @@ describe("SegmentIterator", () => {
 
       it("should not throw an error", () => {
         expect(() => {
-          iter.loop("FOO");
+          iter.optionalLoop("FOO");
         }).to.not.throw();
       });
 
       it("should not call the result handler", () => {
         let resultCount = 0;
-        iter.loop("FOO", () => {
+        iter.optionalLoop("FOO", () => {
           resultCount++;
         });
         expect(resultCount).to.equal(0);
       });
     });
 
-    describe("loop passes segment data to the result handler", () => {
+    describe("optionalLoop passes segment data to the result handler", () => {
       let actualResult;
 
       it("should parse one line of input", () => {
@@ -75,7 +75,7 @@ describe("SegmentIterator", () => {
 
         const iter = new SegmentIterator(message, SEGMENT_PARSER);
         let actualResult = [];
-        iter.loop("FOO", (result) => {
+        iter.optionalLoop("FOO", (result) => {
           actualResult.push(result);
         });
         expect(actualResult).to.deep.equal(expectedResult);
@@ -96,7 +96,7 @@ describe("SegmentIterator", () => {
 
         const iter = new SegmentIterator(message, SEGMENT_PARSER);
         let actualResult = [];
-        iter.loop("FOO", (result) => {
+        iter.optionalLoop("FOO", (result) => {
           actualResult.push(result);
         });
         expect(actualResult).to.deep.equal(expectedResult);
@@ -109,7 +109,7 @@ describe("SegmentIterator", () => {
         const iter = new SegmentIterator(message, SEGMENT_PARSER);
         let actualResult = [];
 
-        iter.loop("EOF", (result) => {
+        iter.optionalLoop("EOF", (result) => {
           actualResult.push(result);
         });
 
@@ -117,7 +117,7 @@ describe("SegmentIterator", () => {
       });
     });
 
-    describe("loop terminates at first unexpected segment", () => {
+    describe("optionalLoop terminates at first unexpected segment", () => {
       describe("zero cycles", () => {
         let iter;
         beforeEach(() => {
@@ -127,22 +127,22 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("FOO");
+            iter.optionalLoop("FOO");
           }).to.not.throw();
         });
 
         it("should call the result handler exactly 0 times", () => {
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(0);
         });
 
         it("should not consume unexpected segments", () => {
-          iter.loop("FOO");
+          iter.optionalLoop("FOO");
 
-          // prove that the loop did not consume the unexpected segment
+          // prove that the optionalLoop did not consume the unexpected segment
           expect(() => {
             iter.required("BAR");
           }).to.not.throw();
@@ -158,22 +158,22 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("FOO");
+            iter.optionalLoop("FOO");
           }).to.not.throw();
         });
 
         it("should call the result handler exactly one time", () => {
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(1);
         });
 
         it("should not consume unexpected segments", () => {
-          iter.loop("FOO");
+          iter.optionalLoop("FOO");
 
-          // prove that the loop did not consume the unexpected segment
+          // prove that the optionalLoop did not consume the unexpected segment
           expect(() => {
             iter.required("BAR");
           }).to.not.throw();
@@ -189,22 +189,22 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("FOO");
+            iter.optionalLoop("FOO");
           }).to.not.throw();
         });
 
         it("should call the result handler exactly two times", () => {
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(2);
         });
 
         it("should not consume unexpected segments", () => {
-          iter.loop("FOO");
+          iter.optionalLoop("FOO");
 
-          // prove that the loop did not consume the unexpected segment
+          // prove that the optionalLoop did not consume the unexpected segment
           expect(() => {
             iter.required("BAR");
           }).to.not.throw();
@@ -220,22 +220,22 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("FOO");
+            iter.optionalLoop("FOO");
           }).to.not.throw();
         });
 
         it("should call the result handler exactly 3 times", () => {
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(3);
         });
 
         it("should not consume unexpected segments", () => {
-          iter.loop("FOO"); // consume the loop segments
+          iter.optionalLoop("FOO"); // consume the optionalLoop segments
 
-          // prove that the loop did not consume the unexpected segment
+          // prove that the optionalLoop did not consume the unexpected segment
           expect(() => {
             iter.required("BAR");
           }).to.not.throw();
@@ -243,7 +243,7 @@ describe("SegmentIterator", () => {
       });
     });
 
-    describe("loop terminates at EOF", () => {
+    describe("optionalLoop terminates at EOF", () => {
       describe("zero cycles", () => {
         let iter;
         beforeEach(() => {
@@ -253,13 +253,13 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("BAR");
+            iter.optionalLoop("BAR");
           }).to.not.throw();
         });
 
         it("should stop at unexpected segments", () => {
           let resultCount = 0;
-          iter.loop("BAR", () => {
+          iter.optionalLoop("BAR", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(0);
@@ -275,13 +275,13 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("FOO");
+            iter.optionalLoop("FOO");
           }).to.not.throw();
         });
 
         it("should call the result handler exactly one time", () => {
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(1);
@@ -297,13 +297,13 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("FOO");
+            iter.optionalLoop("FOO");
           }).to.not.throw();
         });
 
         it("should call the result handler exactly two times", () => {
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(2);
@@ -319,13 +319,13 @@ describe("SegmentIterator", () => {
 
         it("should NOT throw an error", () => {
           expect(() => {
-            iter.loop("FOO");
+            iter.optionalLoop("FOO");
           }).to.not.throw();
         });
 
         it("should call the result handler exactly 3 times", () => {
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             resultCount++;
           });
           expect(resultCount).to.equal(3);
@@ -334,14 +334,14 @@ describe("SegmentIterator", () => {
     });
 
     describe("nested functionality", () => {
-      describe("loop(segmentId, resultHandler)", () => {
+      describe("optionalLoop(segmentId, resultHandler)", () => {
         it("should call the nested result handler exactly 3 times", () => {
           const message = `${FOO}${BAR}${BAR}${FOO}${FOO}${BAR}${BAZ}`;
           const iter = new SegmentIterator(message, SEGMENT_PARSER);
 
           let resultCount = 0;
-          iter.loop("FOO", () => {
-            iter.loop("BAR", () => {
+          iter.optionalLoop("FOO", () => {
+            iter.optionalLoop("BAR", () => {
               resultCount++;
             });
           });
@@ -356,7 +356,7 @@ describe("SegmentIterator", () => {
 
           let resultCount = 0;
           expect(() => {
-            iter.loop("FOO", () => {
+            iter.optionalLoop("FOO", () => {
               iter.required("BAR", () => {
                 resultCount++;
               });
@@ -371,7 +371,7 @@ describe("SegmentIterator", () => {
           const iter = new SegmentIterator(message, SEGMENT_PARSER);
 
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             iter.required("BAR", () => {
               resultCount++;
             });
@@ -387,7 +387,7 @@ describe("SegmentIterator", () => {
 
           let resultCount = 0;
           expect(() => {
-            iter.loop("FOO", () => {
+            iter.optionalLoop("FOO", () => {
               iter.optional("BAR", () => {
                 resultCount++;
               });
@@ -402,7 +402,7 @@ describe("SegmentIterator", () => {
           const iter = new SegmentIterator(message, SEGMENT_PARSER);
 
           let resultCount = 0;
-          iter.loop("FOO", () => {
+          iter.optionalLoop("FOO", () => {
             iter.optional("BAR", () => {
               resultCount++;
             });
@@ -428,7 +428,7 @@ describe("SegmentIterator", () => {
       });
     });
 
-    describe("loop passes segment data to the result handler", () => {
+    describe("optionalLoop passes segment data to the result handler", () => {
       let actualResult;
 
       it("should parse one line of input", () => {
@@ -615,7 +615,7 @@ describe("SegmentIterator", () => {
       });
     });
 
-    describe("loop passes segment data to the result handler", () => {
+    describe("optionalLoop passes segment data to the result handler", () => {
       let actualResult;
 
       it("should parse one line of input", () => {
@@ -684,7 +684,7 @@ describe("SegmentIterator", () => {
     });
 
     describe("handling EOF", () => {
-      // TODO: consider the validity of this scenario in the context of loop and required
+      // TODO: consider the validity of this scenario in the context of optionalLoop and required
 
       let iter;
       beforeEach(() => {

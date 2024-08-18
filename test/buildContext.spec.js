@@ -1,6 +1,6 @@
 const buildContext = require("../lib/buildContext");
 
-describe("buildContext", () => {
+describe("lib/buildContext", () => {
   describe.skip("// TODO remove when finished", () => {});
 
   it("should should return undefined when message is undefined, null, or an empty string", () => {
